@@ -5,7 +5,7 @@ export default function AllRoutes() {
 
     return (
         <Routes>
-            <Route path="/amanyadav" element={<Home />} />
+            <Route path="/" element={<Home />} />
         </Routes>
     )
 }
