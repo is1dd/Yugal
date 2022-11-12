@@ -1,0 +1,18 @@
+
+#buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+#resume,.hire{
+    background-color: #4070f4 !important;
+    border: 1px solid #4070f4 !important;
+    color: white;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+#resume:hover,.hire:hover{
+    color: #4070f4;
+    background-color: white !important;
+}

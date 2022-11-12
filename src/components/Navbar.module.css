@@ -1,0 +1,52 @@
+.myNavbar{
+  display: flex;
+  position: sticky;  
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  right: 0;
+  z-index: 1024;
+  border: 1px solid transparent;
+}
+.myNavbar li{
+list-style: none;
+padding: 1.3rem 20px;
+}
+
+.myNavbar ul{
+display: flex;
+}
+
+
+.myNavbar a,.same{
+text-decoration: none;
+cursor: pointer;
+font-weight: 600;
+font-size:  1.25rem;
+font-family: 'Poppins', sans-serif;
+}
+.myNavbar a:hover,.same:hover{
+  color: #4070f4;
+  border-bottom: 2.8px solid #4070f4!important;
+}
+ 
+.brand span{
+transform: rotateY(0deg);
+position: relative;
+display: inline-block;
+transition:transform .5s ease-in-out  ;
+animation: flip 2s infinite;
+animation-delay: calc(.5s * var(--i))
+}
+@keyframes flip {
+0%,80% {
+  transform: rotateY(360deg) 
+}
+}
+.brand{
+font-family: 'Poppins', sans-serif;
+font-size: 2.2rem;
+color: lightslategray;
+position: relative;
+}

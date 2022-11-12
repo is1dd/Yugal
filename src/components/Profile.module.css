@@ -1,0 +1,16 @@
+.userProfile{
+        padding:10px;
+        border-radius: 50%;
+         background: linear-gradient(135deg, rgb(66 133 255),rgb(207 207 207) 50%,transparent 50%);
+        background-size: 250%;
+        background-position: 100% 100% !important;
+        z-index: 2;
+        transition-property: background !important;
+        transition : background 0.7s;
+}
+.userProfile:hover{
+        background-position: 0% 0% !important;
+        z-index: 2;
+        }  
+
+

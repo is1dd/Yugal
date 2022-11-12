@@ -1,0 +1,37 @@
+
+.follow{
+    display: flex;
+    gap: .3rem;
+}
+.follow svg{
+    width: 2rem;
+    cursor: pointer;
+    height: 1.8rem;
+      transition: width .1s ease-in-out, height .1s ease-in-out;
+}
+.follow svg:hover{
+    width: 2.2rem;
+    height: 2rem;
+}
+.follow .git{
+    fill: #2b221c;
+    transition: width .1s ease-in-out, height .1s ease-in-out;
+}
+
+.follow .linked{
+    fill: 
+    #0a66c2 ;
+      transition: width .1s ease-in-out, height .1s ease-in-out;
+}
+.icons1 {
+    width: 3rem;
+    height: 2rem;
+}
+.follow .linked:hover{
+    width: 2.2rem;
+    height: 2rem;
+}
+.follow  .git:hover{
+    width: 2.2rem;
+    height: 2rem;
+}
